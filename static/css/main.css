@@ -1,8 +1,8 @@
 /* Light mode */
 :root {
 	--text: #000000;
-	--link: #1565C0;
-	--link_visited: #1565C0;
+	--link: #1b5ca7;
+	--link_visited: #1b5ca7;
 	--accent1: #333333;
 	--accent2: #666666;
 	--background: #ffffff;
@@ -18,14 +18,14 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		--text: #f8f8f2;
-		--link: #8be9fd;
-		--link_visited: #8be9fd;
+		--link: #8FB2FF;
+		--link_visited: #8FB2FF;
 		--accent1: #f8f8f2;
 		--accent2: #f8f8f2;
 		--background: #282a36;
 		--code: #44475a;
 		--button-text: #282a36;
-		--blockquote: #44475a;
+		--blockquote: #8FB2FF;
 		--field: #44475a;
 		--note: #44475a;
 		--mark: #FFFF99;

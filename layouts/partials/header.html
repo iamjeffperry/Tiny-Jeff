@@ -4,13 +4,18 @@
     <p class="description">{{ .Site.Params.itunes_description }}</p>
     <nav class="site-nav">
     	<ul>
-		{{ range .Site.Menus.main }}
+		<!--- Previous code for menu
+          {{ range .Site.Menus.main }}
 			{{ if .Page.Params.redirect_url }}
 				<li><a class="page-link {{ .Name }}" href="{{ .Page.Params.redirect_url }}">{{ .Name }}</a></li>
 			{{ else }}
 				<li><a class="page-link {{ .Name }}" href="{{ .URL | relLangURL | safeURL }}">{{ .Name }}</a></li>
 			{{ end }}
-		{{ end }}
+		{{ end }} --->
+			<li><a class="page-link Home" href="/">Home</a></li>
+			<li><a class="page-link About" href="/about/">About</a></li>
+			<li><a class="page-link Archive" href="/archive/">Archive</a></li>
+			<li><a class="page-link RSS" href="/feed.xml">RSS</a></li>
 		</ul>
     </nav>
 </header>
