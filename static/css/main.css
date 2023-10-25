@@ -54,7 +54,7 @@
 body {
 	max-width: 40em;
 	margin: 2em auto;
-	font-family: var(--font_system_ui);
+	font-family: var(--font_monospace_code);
 	font-size: 18px;
 	padding: 0 1em;
 	line-height: 1.6;
