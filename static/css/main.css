@@ -381,11 +381,11 @@ input[type=search] {
 	padding: 10px;
 	font-size: 0.9em;
 	border: 1px solid var(--link) !important;
-	/* border-radius: 5px !important; */
+	border-radius: 0px !important;
 	color: var(--text);
 	display: block;
 	height: auto;
-	background: var(--field);
+	background: var(--background);
 }
 
 input[type=submit],
@@ -393,7 +393,7 @@ button {
 	vertical-align: baseline;
 	padding: 5px 10px;
 	font-size: 0.9em;
-	/* border-radius: 5px; */
+	border-radius: 0px;
 	border: 1px solid var(--link);
 	background: none;
 	color: var(--link);
