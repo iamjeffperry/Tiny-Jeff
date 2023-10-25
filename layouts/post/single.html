@@ -36,7 +36,7 @@
   <li>{{ partial "reply-on-mastodon.html" . }}</li>
 {{ end }}
 {{ if templates.Exists "partials/reply-on-mastodon.html" }}
-  <li><a href="https://{{.Params.mastodon.hostname }}/@{{ .Params.mastodon.username }}/{{ .Params.mastodon.id }}"><i class="fa-brands fa-mastodon"></i> Reply on Mastodon</a></li>
+  <li><a href="https://{{.Params.mastodon.hostname }}/@{{ .Params.mastodon.username }}/{{ .Params.mastodon.id }}" class="reply-on-mastodon"><i class="fa-brands fa-mastodon"></i>Reply on Mastodon</a></li>
 {{ end }}
 {{ end }}
 </ul>
