@@ -236,7 +236,7 @@ blockquote {
 	padding: 1em;
 	background: var(--background);
 	border-radius: 1rem;
-	margin: 1em;
+	margin: 1em 5px;
 	border: 1px solid var(--link);
 	filter: drop-shadow(-4px 4px 0px var(--link));
 }
