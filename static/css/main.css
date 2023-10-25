@@ -54,7 +54,7 @@
 body {
 	max-width: 40em;
 	margin: 2em auto;
-	font-family: var(--font_monospace_code);
+	font-family: var(--font_humanist);
 	font-size: 18px;
 	padding: 0 1em;
 	line-height: 1.6;
@@ -149,7 +149,7 @@ a.reply-by-email, a.read-more {
 	padding: 5px 10px;
 	border: 1px solid var(--link);
 	color: var(--link);
-	border-radius: 5px;
+	/* border-radius: 5px; */
 	font-size: 0.9em;
 }
 
@@ -381,7 +381,7 @@ input[type=search] {
 	padding: 10px;
 	font-size: 0.9em;
 	border: 1px solid var(--link) !important;
-	border-radius: 5px !important;
+	/* border-radius: 5px !important; */
 	color: var(--text);
 	display: block;
 	height: auto;
@@ -393,7 +393,7 @@ button {
 	vertical-align: baseline;
 	padding: 5px 10px;
 	font-size: 0.9em;
-	border-radius: 5px;
+	/* border-radius: 5px; */
 	border: 1px solid var(--link);
 	background: none;
 	color: var(--link);
