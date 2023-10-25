@@ -234,10 +234,12 @@ ul.post-list a.u-url {
 
 blockquote {
 	padding: 1em;
-	background: var(--blockquote);
-	border-radius: 5px;
+	background: var(--background);
+	border-radius: 1rem;
 	font-size: 0.9em;
 	margin: 1em;
+	border: 1px solid var(--link);
+	filter: drop-shadow(-4px 4px 0px var(--link));
 }
 
 blockquote p:last-of-type {
