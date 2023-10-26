@@ -149,7 +149,7 @@ a.reply-by-email, a.read-more {
 	padding: 5px 10px;
 	border: 1px solid var(--link);
 	color: var(--link);
-	border-radius: 5px;
+	border-radius: 0px;
 	font-size: 0.9em;
 }
 
@@ -234,11 +234,10 @@ ul.post-list a.u-url {
 
 blockquote {
 	padding: 1em;
-	background: linear-gradient(45deg, #f2f5f9, #f2f5f9e8);
-  	margin: 1em;
+	background: var(--background);
+  	margin: 1em 5px;
 	border: 1px solid var(--link);
-	border-radius: 1em;
-  	box-shadow: rgba(0, 0, 0, 0.1) -1px 9px 8px -3px;
+	filter: drop-shadow(-4px 4px 0px var(--link));
 }
 
 blockquote p:last-of-type {
@@ -382,7 +381,7 @@ input[type=search] {
 	padding: 10px;
 	font-size: 0.9em;
 	border: 1px solid var(--link) !important;
-	border-radius: 5px !important;
+	border-radius: 0px !important;
 	color: var(--text);
 	display: block;
 	height: auto;
@@ -394,7 +393,7 @@ button {
 	vertical-align: baseline;
 	padding: 5px 10px;
 	font-size: 0.9em;
-	border-radius: 5px;
+	border-radius: 0px;
 	border: 1px solid var(--link);
 	background: none;
 	color: var(--link);
