@@ -54,7 +54,7 @@
 body {
 	max-width: 40em;
 	margin: 2em auto;
-	font-family: var(--font_geometric_humanist);
+	font-family: var(--font_humanist);
 	font-size: 18px;
 	padding: 0 1em;
 	line-height: 1.6;
@@ -122,7 +122,7 @@ article p:first-of-type {
 }
 
 img.profile_photo {
-	border-radius: 80px;
+	border-radius: 0.15em;
 }
 
 nav ul,
@@ -149,7 +149,7 @@ a.reply-by-email, a.read-more {
 	padding: 5px 10px;
 	border: 1px solid var(--link);
 	color: var(--link);
-	border-radius: 0px;
+	border-radius: 0.15em;
 	font-size: 0.9em;
 }
 
@@ -237,6 +237,7 @@ blockquote {
 	background: var(--background);
   	margin: 1em 5px;
 	border: 1px solid var(--link);
+	border-radius: 0.15em;
 	filter: drop-shadow(-4px 4px 0px var(--link));
 }
 
@@ -292,7 +293,7 @@ sup a {
 	vertical-align: middle;
 	width: 40px;
 	height: auto;
-	border-radius: 40px;
+	border-radius: 0.15em;
 	max-width: 40px !important;
 }
 
@@ -381,7 +382,7 @@ input[type=search] {
 	padding: 10px;
 	font-size: 0.9em;
 	border: 1px solid var(--link) !important;
-	border-radius: 0px !important;
+	border-radius: 0.15em !important;
 	color: var(--text);
 	display: block;
 	height: auto;
@@ -393,7 +394,7 @@ button {
 	vertical-align: baseline;
 	padding: 5px 10px;
 	font-size: 0.9em;
-	border-radius: 0px;
+	border-radius: 0.15em;
 	border: 1px solid var(--link);
 	background: none;
 	color: var(--link);
