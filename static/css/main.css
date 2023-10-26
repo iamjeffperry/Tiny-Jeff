@@ -54,7 +54,7 @@
 body {
 	max-width: 40em;
 	margin: 2em auto;
-	font-family: var(--font_humanist);
+	font-family: var(--font_geometric_humanist);
 	font-size: 18px;
 	padding: 0 1em;
 	line-height: 1.6;
